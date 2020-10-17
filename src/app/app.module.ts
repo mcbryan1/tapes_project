@@ -3,17 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import {LandingPageComponent} from './components/landing-page/landing-page.component'
+import { ApiComponent } from './components/api/api.component';
+import { PricingComponent } from './components/pricing/pricing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    ApiComponent,
+    PricingComponent
   ],
   imports: [
-    BrowserModule,
+  BrowserModule,
     AppRoutingModule
   ],
   providers: [],

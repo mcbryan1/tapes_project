@@ -1,0 +1,61 @@
+
+.image_container{
+    margin-top: 5rem;
+}
+.text_container{
+    margin-top: 8rem;
+}
+
+.main_left h1{
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.main_left h1 span{
+    font-family: 'Sansita Swashed', cursive;
+    color: #fff;
+    font-size: 3rem;
+}
+.main_left p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.main_left h6{
+    color: #ccc;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 2rem;
+    /* padding-right: 4rem; */
+}
+input{
+    height: 4rem;
+}
+.netflix{
+    width: 4rem;
+    color: #ccc !important;
+    margin-right: 1rem;
+}
+.apple{
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+.companies{
+    margin-top: 2rem;
+}
+.companies h4{
+    font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+font-size: 1rem;
+}
+@media only screen and (max-width: 500px) {
+    .main_left h1{
+        font-family: 'Quicksand', sans-serif;
+        color: #000;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+  }

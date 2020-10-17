@@ -1,0 +1,30 @@
+.logo {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 2rem;
+  color: #640cc1;
+  transition: 0.5s ease-in-out;
+}
+.logo:hover{
+  color: #300261;
+}
+.nav_links li a {
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  transition: .5s ease-in-out;
+}
+.nav_links li a:hover {
+  color: #300261;
+}
+.button a {
+  color: #fff;
+  background-color: #640cc1;
+  width: 7rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+.button a:hover {
+  background-color: #300261;
+  color: #fff;
+}
