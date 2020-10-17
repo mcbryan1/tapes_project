@@ -5,7 +5,10 @@
 .text_container{
     margin-top: 8rem;
 }
-
+.main{
+    background-image: url(../../../assets/images/blob.svg);
+    background-repeat: no-repeat;
+}
 .main_left h1{
     font-family: 'Quicksand', sans-serif;
     color: #000;
@@ -17,23 +20,33 @@
     color: #fff;
     font-size: 3rem;
 }
-.main_left p{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.1rem;
-    color: #ccc;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-}
+
 
 .main_left h6{
-    color: #ccc;
+    color: #777777;
     font-family: 'Quicksand', sans-serif;
     margin-top: 2rem;
     /* padding-right: 4rem; */
 }
 input{
     height: 4rem;
+    font-family: 'Quicksand', sans-serif;
 }
+.blob{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#button-addon2{
+    color: #fff;
+  background-color: #640cc1;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+}
+#button-addon2:hover {
+    background-color: #300261;
+    color: #fff;
+  }
 .netflix{
     width: 4rem;
     color: #ccc !important;
