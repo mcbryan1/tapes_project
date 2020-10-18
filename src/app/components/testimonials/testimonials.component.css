@@ -1,0 +1,43 @@
+.testimonials {
+  background-color: #000;
+  border-bottom-left-radius: 250% 250px;
+  border-bottom-right-radius: 250% 250px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.main_text {
+  padding: 5rem;
+}
+.main_text p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.4rem;
+  color: #8d8d8d;
+}
+.main_text h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 2rem;
+}
+.main_text h6 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+  color: #8d8d8d;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.main_text h5 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  padding: 1rem;
+  background-color: #640cc1;
+  width: 15rem;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+.main_text h5:hover{
+    background-color: #300261;
+
+}
