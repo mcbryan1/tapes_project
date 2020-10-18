@@ -1,0 +1,42 @@
+.main_text p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.4rem;
+  color: #8d8d8d;
+}
+.main_text h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-top: 2rem;
+}
+.main_text h6 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+  color: #8d8d8d;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.footer {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+input {
+  height: 4rem;
+  font-family: "Quicksand", sans-serif;
+}
+#button-addon2 {
+  color: #fff;
+  background-color: #640cc1;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+}
+#button-addon2:hover {
+  background-color: #300261;
+  color: #fff;
+}
+.copyright p {
+  font-family: "Quicksand", sans-serif;
+  padding: 0.5rem;
+  color: #ccc;
+}
