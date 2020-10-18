@@ -1,0 +1,22 @@
+.four {
+  margin-top: 7rem;
+}
+.four h1 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 10rem;
+}
+.four p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+}
+.four h6 {
+  background-color: #640cc1;
+  padding: 2rem;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.four h6:hover {
+  background-color: #43018a;
+}
