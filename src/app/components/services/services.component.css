@@ -1,5 +1,9 @@
 .main_services {
   margin: 3rem 0;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  border-bottom-left-radius: 250% 250px;
+  border-bottom-right-radius: 250% 250px;
 }
 .services p {
   font-family: "Quicksand", sans-serif;

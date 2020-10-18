@@ -1,0 +1,49 @@
+.main_text h1{
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+}
+.main_text h6{
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 1;
+    color: #8d8d8d;
+    margin: 2rem 0;
+}
+.main_text p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(126, 43, 204);
+    font-size: 1.1rem;
+      padding: 1rem 1rem;
+      width: 17rem;
+      transition: .5s ease-in-out;
+      cursor: pointer;
+}
+.main_text p:hover{
+    border: 1px solid #ccc;
+
+}
+.main_text h5{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(209, 136, 26);
+    font-size: 1.1rem;
+      padding: 1rem 1rem;
+      width: 19rem;
+      transition: .5s ease-in-out;
+      cursor: pointer;
+}
+.main_text h5:hover{
+    border: 1px solid #ccc;
+
+}
+.main_text h4{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(59, 22, 223);
+    font-size: 1.1rem;
+      padding: 1rem 1rem;
+      width: 17rem;
+      transition: .5s ease-in-out;
+      cursor: pointer;
+}
+.main_text h4:hover{
+    border: 1px solid #ccc;
+
+}

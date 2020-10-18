@@ -7,6 +7,8 @@ import { ApiComponent } from './components/api/api.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { DetailsComponent } from './components/details/details.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FooterComponent } from './components/footer/footer.component';
     ApiComponent,
     PricingComponent,
     ServicesComponent,
-    FooterComponent
+    FooterComponent,
+    TestimonialsComponent,
+    DetailsComponent
   ],
   imports: [
   BrowserModule,
