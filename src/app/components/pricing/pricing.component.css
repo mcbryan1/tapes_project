@@ -55,6 +55,11 @@ section.pricing {
 .card-body {
   cursor: pointer;
 }
+.copyright p {
+    font-family: "Quicksand", sans-serif;
+    padding: 0.5rem;
+    color: #838383;
+  }
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {

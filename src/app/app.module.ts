@@ -8,8 +8,10 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { ServicesComponent } from './components/services/services.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { DetailsComponent } from './components/details/details.component';
-import {FooterComponent} from './components/footer/footer.component';
-import { FourzerofourComponent } from './components/fourzerofour/fourzerofour.component'
+import { FooterComponent } from './components/footer/footer.component';
+import { FourzerofourComponent } from './components/fourzerofour/fourzerofour.component';
+import {HttpClientModule} from '@angular/common/http'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,7 @@ import { FourzerofourComponent } from './components/fourzerofour/fourzerofour.co
     DetailsComponent,
     FourzerofourComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
 providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,0 +1,27 @@
+<div class="container-fluid tab">
+  <div class="row">
+    <div class="col-12 text-center users">
+      <h1>USER LIST <br> (FETCH DATA)</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 mt-5 btn text-center">
+      <p (click)="getDataFromAPI()">GET DATA</p>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-lg" *ngFor="let d of data">
+            <div class="card-body">
+              <p>{{d.id}}.</p>
+                <p>Name:  {{d.name}}</p>
+                <p>Username: {{d.username}} </p>
+                <p>City: {{d.address.city}} </p>
+                <p>Email: {{d.email}} </p>
+                <p>Suite: {{d.address.suite}} </p>
+                <p>Company: {{d.company.name}}</p>
+                <p>Website: {{d.website}} </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>

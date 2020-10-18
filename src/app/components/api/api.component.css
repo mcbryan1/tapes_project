@@ -1,0 +1,22 @@
+.tab {
+  margin-top: 7rem;
+}
+.users h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.card{
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.btn p{
+  padding: 1rem;
+  background-color: #640cc1;
+  font-family: "Quicksand", sans-serif;
+color: #fff;
+}
+.card-body p{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2rem;
+}
