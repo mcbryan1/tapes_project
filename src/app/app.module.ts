@@ -8,8 +8,7 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { ServicesComponent } from './components/services/services.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { DetailsComponent } from './components/details/details.component';
-import { FooterComponent } from './components/footer/footer.component';
-
+import {FooterComponent} from './components/footer/footer.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +21,7 @@ import { FooterComponent } from './components/footer/footer.component';
     DetailsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
