@@ -1,74 +1,77 @@
+.image_container {
+  margin-top: 5rem;
+}
+.text_container {
+  margin-top: 8rem;
+}
+.main {
+  background-image: url(../../../assets/images/blob.svg);
+  background-repeat: no-repeat;
+}
+.main_left h1 {
+  font-family: "Quicksand", sans-serif;
+  color: #000;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.main_left h1 span {
+  font-family: "Sansita Swashed", cursive;
+  color: #fff;
+  font-size: 3rem;
+}
 
-.image_container{
-    margin-top: 5rem;
+.main_left h6 {
+  color: #777777;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 2rem;
+  /* padding-right: 4rem; */
 }
-.text_container{
-    margin-top: 8rem;
+input {
+  height: 4rem;
+  font-family: "Quicksand", sans-serif;
 }
-.main{
-    background-image: url(../../../assets/images/blob.svg);
-    background-repeat: no-repeat;
-}
-.main_left h1{
-    font-family: 'Quicksand', sans-serif;
-    color: #000;
-    font-weight: bold;
-    font-size: 4rem;
-}
-.main_left h1 span{
-    font-family: 'Sansita Swashed', cursive;
-    color: #fff;
-    font-size: 3rem;
-}
-
-
-.main_left h6{
-    color: #777777;
-    font-family: 'Quicksand', sans-serif;
-    margin-top: 2rem;
-    /* padding-right: 4rem; */
-}
-input{
-    height: 4rem;
-    font-family: 'Quicksand', sans-serif;
-}
-.blob{
+/* .blob{
     position: absolute;
     left: 0;
     top: 0;
-}
-#button-addon2{
-    color: #fff;
+} */
+#button-addon2 {
+  color: #fff;
   background-color: #640cc1;
   border: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 #button-addon2:hover {
-    background-color: #300261;
-    color: #fff;
-  }
-.netflix{
-    width: 4rem;
-    color: #ccc !important;
-    margin-right: 1rem;
+  background-color: #300261;
+  color: #fff;
 }
-.apple{
-    width: 1.5rem;
-    margin-right: 1rem;
+.netflix {
+  width: 4rem;
+  color: #ccc !important;
+  margin-right: 1rem;
 }
-.companies{
-    margin-top: 2rem;
+.apple {
+  width: 1.5rem;
+  margin-right: 1rem;
 }
-.companies h4{
-    font-family: 'Quicksand', sans-serif;
-font-weight: bold;
-font-size: 1rem;
+.companies {
+  margin-top: 2rem;
+}
+.companies h4 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
 }
 @media only screen and (max-width: 500px) {
-    .main_left h1{
-        font-family: 'Quicksand', sans-serif;
-        color: #000;
-        font-weight: bold;
-        font-size: 2rem;
-    }
+  .main_left h1 {
+    font-family: "Quicksand", sans-serif;
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
   }
+  .main {
+    background-image: url(../../../assets/images/blob.svg);
+    background-repeat: no-repeat;
+    /* margin-top: 4rem; */
+  }
+}

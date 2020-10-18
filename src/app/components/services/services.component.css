@@ -1,0 +1,76 @@
+.main_services {
+  margin: 3rem 0;
+}
+.services p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.4rem;
+  color: #8d8d8d;
+}
+.services h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.services h6 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+  color: #8d8d8d;
+}
+.play {
+  background-image: linear-gradient(
+    to right bottom,
+    #813fa4,
+    #7e34b4,
+    #7729c5,
+    #6a1dd8,
+    #5412eb
+  );
+  color: #fff;
+  padding: 1.4rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+.main_card h5 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+.main_card p {
+  color: #8d8d8d;
+  font-family: "Quicksand", sans-serif;
+}
+.main_card a {
+  font-family: "Quicksand", sans-serif;
+}
+.setting {
+  background-image: linear-gradient(
+    to right bottom,
+    #ffc800,
+    #fea900,
+    #fb8900,
+    #f56800,
+    #eb4112
+  );
+  color: #fff;
+  padding: 1.4rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+.bell {
+  background-image: linear-gradient(
+    to right bottom,
+    #566af4,
+    #455bdb,
+    #344dc3,
+    #213fab,
+    #073294
+  );
+  color: #fff;
+  padding: 1.4rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+@media only screen and (max-width: 500px) {
+    .main_card{
+        margin: 1rem 0;
+    }
+  }
