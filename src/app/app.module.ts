@@ -10,7 +10,8 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { DetailsComponent } from './components/details/details.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FourzerofourComponent } from './components/fourzerofour/fourzerofour.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { ContactComponent } from './components/contact/contact.component'
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import {HttpClientModule} from '@angular/common/http'
     TestimonialsComponent,
     DetailsComponent,
     FourzerofourComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
 providers: [],

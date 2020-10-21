@@ -1,0 +1,31 @@
+.contact{
+    padding-top: 7rem;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+form{
+    margin-top: 2rem;
+}
+input{
+    height: 3rem;
+}
+textarea{
+    width: 34rem;
+    height: 6rem;
+}
+/* background-color: #640cc1; */
+
+.main{
+    margin: 2rem 0;
+}
+@media only screen and (max-width: 500px) {
+    textarea{
+        width: 19rem;
+        height: 6rem;
+    }
+    .header h3{
+        margin-top: 2rem;
+    }
+  }
+  
